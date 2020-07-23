@@ -1,12 +1,12 @@
 ﻿@page "/"
 
+<div class="text-center pb-1">
+    <button @onclick="click" class="btn btn-outline-primary">Random</button>
+</div>
 <div class="text-center">
     <img src="@ImageSorce"  class="img-fluid"/>
 </div>
 
-<div class="text-center">
-    <button @onclick="click" class="btn btn-primary">ランダム</button>
-</div>
 
 @code{
     string ImageSorce;

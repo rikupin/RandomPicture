@@ -7,8 +7,9 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using RandomPicture;
 
-namespace BlazorApp2
+namespace RandomPicture
 {
     public class Program
     {
