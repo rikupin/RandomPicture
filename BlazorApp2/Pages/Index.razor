@@ -1,0 +1,30 @@
+﻿@page "/"
+
+<div class="text-center">
+    <img src="@ImageSorce"  class="img-fluid"/>
+</div>
+
+<div class="text-center">
+    <button @onclick="click" class="btn btn-primary">ランダム</button>
+</div>
+
+@code{
+    string ImageSorce;
+    string[] ImageArray = new string[] { "/IMG/m1.png", "/IMG/m2.png","/IMG/m3.png","/IMG/m4.png","/IMG/m5.png","/IMG/m6.png","/IMG/m7.png","/IMG/m8.png","/IMG/m9.png","/IMG/m10.png","/IMG/m11.png","/IMG/m12.png"};
+
+    int maenorandom;
+
+    void click()
+    {
+        while (true)
+        {
+            var rnd = new Random().Next(0, 12);
+            if (maenorandom != rnd)
+            {
+                maenorandom = rnd;
+                ImageSorce = ImageArray[rnd];
+                break;
+            }
+        }
+    }
+}
