@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomPicture", "BlazorApp2\RandomPicture.csproj", "{B5B385F5-A9DC-427F-AB6B-BF838B9A5B23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomPicture", "RandomPicture\RandomPicture.csproj", "{B5B385F5-A9DC-427F-AB6B-BF838B9A5B23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
