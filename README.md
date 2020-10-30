@@ -1,4 +1,6 @@
 # RandomPicture
+### アプリのコピー方法
+- 当ページの右上から Fork する。
 ### アプリの発行方法
 - Github の Settings を開く
 - Github Pages の場所で Source>None の部分を gh-pages に変更する。
